@@ -1,0 +1,82 @@
+/*Start Card*/
+.card {
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    height: 115px;
+    margin: 1rem;
+    position: relative;
+    width: 220px;
+    padding: 5px;
+}
+.card-2{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/* Card bottoms */
+.avatar{
+    object-fit: cover;
+    border-radius:50%;
+    width : 25px;
+    height: 25px;
+}
+
+.song-card-title, .song-card-user-username {
+    text-decoration: none;
+    color: #222;
+    display: block;
+    font-size: 11px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.song-card-bottom-div {
+    margin-right: 10px;
+    margin-top:3px;
+}
+
+/* Image - play button overlay*/
+.container {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.cover_image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    background-image: url('/img/default_coverpic.png')
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .cover_image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    color: black;
+    font-size: 24px;
+}
+
