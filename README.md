@@ -10,7 +10,7 @@
        
 
 #### App Demo
-[ Shortify-Heroku  ](https://shortify-go.herokuapp.com)
+[ React-Redux-Audio-Player ](https://shortify-go.herokuapp.com)
 
 #### Todo
     1. Lazy load feature for loading more than 50 tracks.
@@ -24,7 +24,7 @@ Make sure to [follow me on Git ](http://github.com/arjunsk) for getting the Late
 
 ## Donate
 
-If **Shortify** was helpful for you, send a donation as a thank you. :)
+If **React-Redux-Audio-Player** was helpful for you, send a donation as a thank you. :)
 
 ![Bitcoin](/btc.png)
 
