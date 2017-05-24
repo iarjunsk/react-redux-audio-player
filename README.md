@@ -5,8 +5,8 @@
 ![React-Redux-Audio-Player](/screen1.png)
 
 #### Features:
-      1. Using soundcloud api to fetch tracks
-      2. Implemented using react and redux
+      1. Using soundcloud api to fetch tracks.
+      2. Implemented using react and redux.
        
 
 #### App Demo
@@ -15,7 +15,9 @@
 #### Todo
     1. Lazy load feature for loading more than 50 tracks.
     2. Genre based filter.
-    3. Improve the UI
+    3. Improve the UI.
+        a. Proper cover pic
+        b. Center pad the cards
     
 This project was inspired from [Soundredux](https://github.com/andrewngu/sound-redux)    
 
