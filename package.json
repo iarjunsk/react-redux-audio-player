@@ -10,11 +10,14 @@
     "redux": "^3.6.0",
     "redux-logger": "^3.0.6",
     "redux-promise-middleware": "^4.3.0",
-    "redux-thunk": "^2.2.0"
-  },
-  "devDependencies": {
+    "redux-thunk": "^2.2.0",
     "react-scripts": "0.9.5"
   },
+  "engines": {
+      "node": "5.0.0",
+      "npm": "4.4.4"
+   },
+  "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
