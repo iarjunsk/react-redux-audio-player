@@ -5,7 +5,7 @@ export function fetchTracks(){
 
         dispatch({type:"FETCH_TRACKS_INIT"});
 
-        axios.get("http://api.soundcloud.com/tracks?client_id=1AVHvmUbJVx9PaAcjaMka6XvKv2F8eQw")
+        axios.get("https://api.soundcloud.com/tracks?client_id=1AVHvmUbJVx9PaAcjaMka6XvKv2F8eQw")
         .then((response)=>{
                 dispatch({type:"FETCH_TRACKS_FULFILLED", payload: response.data})
         })

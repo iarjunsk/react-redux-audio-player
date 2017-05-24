@@ -39,7 +39,7 @@ class MusicBar extends Component {
                    onPause={this.props.pause_track}
                    id="audio-player"
                    width="100%"
-                   src={"http://api.soundcloud.com/tracks/"+ this.props.settingsObj.trackID +"/stream?client_id=1AVHvmUbJVx9PaAcjaMka6XvKv2F8eQw"}
+                   src={"https://api.soundcloud.com/tracks/"+ this.props.settingsObj.trackID +"/stream?client_id=1AVHvmUbJVx9PaAcjaMka6XvKv2F8eQw"}
                    type="audio/mp3"
                    controls="controls">
                </audio>;
