@@ -24,7 +24,7 @@ This project was inspired from [Soundredux](https://github.com/andrewngu/sound-r
 
 Make sure to [follow me on Git ](http://github.com/arjunsk) for getting the Latest Project Updates. 
 
-## READ TUTS
+#### READ TUTS
 
 Part 1 [ Basic of react ](http://www.arjunsk.com/react/getting-started-react/)
 
