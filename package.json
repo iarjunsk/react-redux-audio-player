@@ -14,7 +14,7 @@
     "react-scripts": "0.9.5"
   },
   "engines": {
-      "node": "5.0.0",
+      "node": "6.11.1",
       "npm": "4.4.4"
    },
   "devDependencies": {},
